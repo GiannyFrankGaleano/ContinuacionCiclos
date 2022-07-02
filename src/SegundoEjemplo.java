@@ -1,19 +1,19 @@
 public class SegundoEjemplo {
     public static void main(String[] args) {
-    //pintar los numeros del 10 al 1
+
+       int numero = 0;
 
 
-    int numero = 10;
+        while (numero < 100) {
+            numero = numero+1;
+            if(numero%2==0){
+                System.out.println("numero: "+numero+" - "+"L");
 
-
-    while(numero>=1){
-
-        System.out.println("Numero: "+numero);
-
-        numero = numero-1;
-
-
-    }
+            }
+            else {
+                System.out.println("numero: " + numero + " - " + "D");
+            }
+        }
 
 
     }
